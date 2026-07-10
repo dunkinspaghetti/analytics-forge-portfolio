@@ -1,22 +1,13 @@
 # Analytics Forge — Portfolio
 
-Marketing analytics engines for SMEs running multi-channel campaigns. Each engine takes one row of input per channel per period and returns structured diagnostic output — no dedicated data team required.
+Working demonstrations of the Analytics Forge Simplified marketing-analytics engines: Google Sheets / Excel VBA tools that turn raw customer and campaign data into a decision-ready dashboard, built for SMEs without a data team.
+
+Each engine gets its own folder, published as it's finished — this isn't a batch reveal.
 
 ## Engines
 
-| Engine | Hook | Demo |
-|---|---|---|
-| [RACE](./race/) | Click-to-Cash Leak Detector | ✅ Available |
-| RFM | Which customers deserve your effort | Coming soon |
-| CLV-NPS | The VIP Paradox | Coming soon |
-| AARRR-RARRA | The Funnel Blind Spot | Coming soon |
+- [`race/`](race/) — RACE (Reach, Act, Convert, Engage) funnel diagnostic. Finds which marketing channel is quietly losing money. **Live.**
+- [`rfm/`](rfm/) — RFM (Recency, Frequency, Monetary) customer scoring. Finds which customers deserve the next marketing dollar — and catches high-value customers the composite score mislabels as safe. **Live.**
+- More engines (CLV-NPS, AARRR-RARRA) land here as each is finished.
 
-## What these are
-
-Purpose-built analytics engines for SMEs — delivered in Google Sheets and Excel VBA, so they run where the business already works. Each engine takes one row of input per marketing channel or customer segment per time period and outputs structured KPI flags, a composite health score, and a bottleneck signal with a ready-to-use AI diagnostic prompt.
-
-These are delivery tools, not dashboards. The output is a decision, not a chart.
-
-All demonstrations use **synthetic illustrative data**, not real client data.
-
-→ [Plain-English case studies](https://contentsimplify.com/case-studies)
+See [contentsimplify.com/case-studies](https://contentsimplify.com/case-studies) for the plain-English version of each write-up below.
